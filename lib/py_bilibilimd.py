@@ -191,7 +191,7 @@ class Spider(Spider):  # 元类 默认的元类 type
 		aid = pidList[0]
 		cid = pidList[1]
 		url = 'https://api.bilibili.com/pgc/player/web/playurl?ep_id={0}&cid={1}&qn=120&fnval=4048&fnver=0&fourk=1'.format(aid, cid)
-		cookie = ''
+		cookie = 'i-wanna-go-back=-1; buvid_fp_plain=undefined; header_theme_version=CLOSE; PVID=1; b_ut=7; FEED_LIVE_VERSION=V8; CURRENT_BLACKGAP=0; buvid4=3A49A725-00D0-2AF2-7037-F442C85F130937725-022100900-zOXW6fOdu77ioX%2BIVm0nwA%3D%3D; CURRENT_FNVAL=4048; CURRENT_PID=84a2a660-ed72-11ed-b29f-d7eaa4f43fe4; DedeUserID=186957646; DedeUserID__ckMd5=4f717c8832ee1e62; buvid3=2FBAD7D5-658A-4DE3-B93F-34AEAB029A3B33241infoc; b_nut=1696324033; _uuid=66C37D101-DB12-BDC3-810F1-8D436BE38D2728848infoc; enable_web_push=DISABLE; hit-dyn-v2=1; fingerprint=1c0962ce584a4c104a234c96b7446190; rpdid=|(ku|kk~JRRk0J'u~|R)k||YJ; b_lsid=104AD61023_18D1CB80BF5; SESSDATA=9b095927%2C1721135848%2C5ac72%2A11CjABHqfYSyh1eaPBYFQ53NdAdEW1FLnOBkMJ_N18uCO0PcPYNqn5yDtV3onmtyRB7XcSVjRSVGdHcTEtdnRhcUloZ2hlQWhCd0s3Qno5OGpEaThaX2VhaGRVd2pqMDhnS0tnQmRRX2Jia0s4b0tqZGczNWJPNkdLUkZRN29IVFJQUzcyRmhqYV9RIIEC; bili_jct=70c213fd9a85878e51ed169ed1dced90; sid=60i1saor; home_feed_column=4; browser_resolution=819-1292; bili_ticket=eyJhbGciOiJIUzI1NiIsImtpZCI6InMwMyIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDU4NDMwNTYsImlhdCI6MTcwNTU4Mzc5NiwicGx0IjotMX0.u6qGyp0c4hMW5Z-9SgfRu9cd5GnXK1HOGq-EKb56feM; bili_ticket_expires=1705842996; buvid_fp=1c0962ce584a4c104a234c96b7446190'
 		extendDict = self.extendDict
 		if 'cookie' in extendDict:
 			cookie = extendDict['cookie']
